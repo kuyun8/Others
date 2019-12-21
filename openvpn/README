@@ -1,0 +1,5 @@
+1、yum -y install openvpn easy-rsa
+2、复制client和server到/etc/openvpn
+3、mkdir /var/log/openvpn
+4、openvpn /etc/openvpn/server/server.conf &
+
